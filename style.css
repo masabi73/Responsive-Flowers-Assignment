@@ -368,20 +368,20 @@ color: white;
     /* overflow-x: hidden; */
 }
 
-.join-the-colorful-bunch h1{
+.container h1{
     font-size:35px;
     color: white;
     margin-bottom: 20px;
 }
 
-.join-the-colorful-bunch input{
+.container input{
     font-size: 18px;
     width: 380px;
     padding: 5px 5px 5px 10px;
     border: none;
     outline: none;
 }
-.join-the-colorful-bunch button{
+.container button{
     font-size: 18px;
     padding: 5px 5px 5px 10px;
     margin-left: -5px;
@@ -469,12 +469,14 @@ overflow: hidden;
 
 
      /* \sdfadkf */
-     .join-the-colorful-bunch input{
+
+     
+     .container input{
         /* background-image: url(./assets/news-letter-bg.png); */
         /* background-repeat: no-repeat; */
         /* background-size: cover; */
         background-color: #ffffff;
-
+        max-width: 280px;
      }
      
 }
