@@ -216,35 +216,64 @@ opacity: .7;
     max-width: 100%;
     /* overflow-x: hidden; */
 }
+/* .badge-img{
+    width: 290px;
+    height: 290px;
+    box-shadow: #ffffff;
+}
 
-/* .flower-3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.main2-div-1{
+    width: 50%;
+    position: relative;
+    border: 2px solid black;
+
+}
+.main-2-img{
+    width: 100%;
+    border: 2px solid rgb(0, 4, 255);
+
+}
+
+.badge-img{
+    position: absolute;
+    top:-125px;
+    right: -70px;
+     border: 2px solid blrgb(241, 4, 4)
+
 } */
+
 
 
 .flower-image{
 position: relative;
+border: 2px solid
+blue;
 }
+
 .image-back{
 object-fit: cover;
 height: 450px;
-max-width:550px;
-/* overflow-x: hidden; */
+width:400px;
+ overflow-x: hidden; 
 margin: 0;
 }
+
 
 .image-Front{
     height: 200px;
     position: absolute;
     top:-115px;
     right: -70px;
+    border: 2px solid violet;
 
 }
 
 
-
+.flower-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
 
 .flower-love-heading h1{
     font-size: 50px;
@@ -536,20 +565,68 @@ width: 100%;
      }
 
      /* lats deals */
-     .last-deals h2{
-        font-size: 1.5rem;
-     }     .last-deals p{
+     
+.last-deals h2{
+ font-size: 1.5rem
+}
+
+
+.last-deals p{
         font-size: .85rem;
      }
-     .image-Front{
-        display: none;
-     }
-.image-back{
-overflow: hidden;
-/* width: 100%; */
-/* background-position-x: center; */
-/* padding: 0px 10px; */
+
+
+
+     /*floewer contaner */
+/* .badge-img{
+    display: none;
 }
+
+.main-2-img{
+    width: 100%;
+} */
+
+     /* .image-Front{
+        display: none;
+     } */
+/* .image-back{
+overflow: hidden;
+width: 100%;  
+background-position-x: center; 
+ padding: 0px 10px;
+} */
+
+
+.flower-image{
+position: relative;
+border: 2px solid
+blue;
+}
+
+.image-back{
+object-fit: cover;
+height: 450px;
+width:100%;
+/* padding: 10px; */
+background-color: #E95A08;
+ /* overflow-x: hidden;  */
+/* margin: 0; */
+}
+
+
+.image-Front{
+    /* height: 200px;
+    position: absolute;
+    top:-115px;
+    right: -70px;
+    border: 2px solid violet; */
+    display: none;
+
+}
+
+
+
+
      .flower-love-heading{
         padding:0 20px;
      }
