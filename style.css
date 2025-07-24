@@ -133,10 +133,17 @@ margin-bottom: 100px;
 
 }
 
-
-.plants-heading{
+.plants,  .last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.plants-heading, .last{
 text-align: center;
 margin-bottom: 80px;
+height: 100px;
+max-width: 650px;
 /* border: 2px solid rgb(125, 114, 250); */
 }
 
@@ -205,7 +212,7 @@ opacity: .7;
     align-items: center;
     gap: 50px;
     /* border: 3px solid salmon; */
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     max-width: 100%;
     /* overflow-x: hidden; */
 }
@@ -238,11 +245,7 @@ margin: 0;
 
 
 
-.flower-love-heading{
-    /* border: 4px solid lawngreen; */
-    /* height: 400px; */
 
-}
 .flower-love-heading h1{
     font-size: 50px;
      font-family: "Noto Serif", serif;
@@ -259,7 +262,7 @@ margin: 0;
     /* border: 2px solid chocolate; */
     text-align: center;
     height: 170px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     
 }
 .last-deals h2{
@@ -326,9 +329,9 @@ margin: 0;
 }
 
 
-.one-image{
+/* .one-image{
     background-image: url(./assets/deal-bloom.png);
-}
+} */
 
 .one-image{
     display: flex;
@@ -487,7 +490,10 @@ border: 2px solid blue;
         margin-top: 13px;
      }
      .heading h1{
-        font-size: 40px;
+        font-size: 1.50rem;
+     }
+     .heading p{
+        font-size: .85;
      }
      .banner-image img{
         width: 100%;
@@ -501,6 +507,13 @@ border: 2px solid blue;
     
 }
 
+.plants-heading h1{
+    font-size: 1.50rem;
+}
+.plants-heading p{
+    font-size: .85rem;
+    text-align: center;
+}
 .card-contant img{
 width: 100%;
 }
@@ -515,6 +528,16 @@ width: 100%;
 
      .flower-love-heading h1{
         font-size: 1.5rem;
+     }
+.flower-love-heading ul li{
+        font-size: .85rem;
+     }
+
+     /* lats deals */
+     .last-deals h2{
+        font-size: 1.5rem;
+     }     .last-deals p{
+        font-size: .85rem;
      }
      .image-Front{
         display: none;
