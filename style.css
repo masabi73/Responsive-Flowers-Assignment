@@ -522,6 +522,8 @@ width: 100%;
 .image-back{
 overflow: hidden;
 /* width: 100%; */
+/* background-position-x: center; */
+/* padding: 0px 10px; */
 }
      .flower-love-heading{
         padding:0 20px;
