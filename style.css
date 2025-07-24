@@ -129,6 +129,8 @@ background-repeat: no-repeat;
 .our-plants-container{
 margin-top: 100px;
 margin-bottom: 100px;
+width: 100%;
+border: 2px solid blueviolet;
 /* border: 2px solid salmon; */
 
 }
@@ -166,7 +168,9 @@ opacity: .4;
 .card-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 5px;
+    place-items: center;
+    
 }
 
 .card-contant{
@@ -174,8 +178,12 @@ opacity: .4;
     text-align: center;
     margin-bottom: 30px;
     height: auto;
-    width:100%;
+    width: 220px;;
+    border-radius: 10px;
     
+}
+.card-contant img{
+    width: 220px;
 }
 .card-container, img, p, h3{
     margin-bottom: 8px;
@@ -494,7 +502,9 @@ border: 2px solid blue;
     height: 30px;
     margin-left: 10px;
 }
-
+main{
+    border: 2px solid rgb(4, 255, 33);
+}
 
 /* Small secreen device */
 @media screen and (max-width: 576px) {
@@ -646,7 +656,10 @@ background-color: #E95A08;
         height: 200px;
      }
 
-
+    .join-the-colorful-bunch{
+        width: 90%;
+        margin: 0 auto;
+    }
 
      /* \sdfadkf */
 
@@ -663,6 +676,9 @@ background-color: #E95A08;
      .footer-left{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+       
+        width: 90%;
+        margin: 0 auto;
      }
      
 }
