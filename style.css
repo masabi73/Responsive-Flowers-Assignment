@@ -512,9 +512,16 @@ main{
    
 
     header{
+        height: 100px;
         width: 100%;
         max-width: 576px;
         border: 2px solid mediumorchid;
+    }
+
+    .logo img{
+        height: 80px;
+        width: 100%;
+        max-width: 80px;
     }
     .hide{
         display: none;
