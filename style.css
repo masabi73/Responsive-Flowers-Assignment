@@ -130,7 +130,6 @@ background-repeat: no-repeat;
 margin-top: 100px;
 margin-bottom: 100px;
 width: 100%;
-border: 2px solid blueviolet;
 /* border: 2px solid salmon; */
 
 }
@@ -254,8 +253,7 @@ opacity: .7;
 
 .flower-image{
 position: relative;
-border: 2px solid
-blue;
+/* border: 2px solid blue; */
 }
 
 .image-back{
@@ -272,7 +270,7 @@ margin: 0;
     position: absolute;
     top:-115px;
     right: -70px;
-    border: 2px solid violet;
+    /* border: 2px solid violet; */
 
 }
 
@@ -448,14 +446,14 @@ footer{
 
 
     height: 300px;
-    width: 80%;
-    border: 2px solid cadetblue;
+    width: 90%;
+    /* border: 2px solid cadetblue; */
     margin: 0 auto;
 
   
 }
 .website-logo{
-border: 2px solid blue;
+/* border: 2px solid blue; */
 
 }
 .website-logo img{
@@ -468,7 +466,7 @@ border: 2px solid blue;
     color: #6B7280;
 }
 .about-home{
-    border: 2px solid violet;
+    /* border: 2px solid violet; */
     display: grid;
     grid-template-rows: repeat(5, 1fr);
 }
@@ -481,7 +479,7 @@ border: 2px solid blue;
 }
 
 .features-link{
-    border: 2px solid rgb(4, 255, 33);
+    /* border: 2px solid rgb(4, 255, 33); */
     display: grid;
     grid-template-rows: repeat(5, 1fr);
 }
@@ -493,7 +491,7 @@ border: 2px solid blue;
 }
 
 .apps-logo{
-    border: 2px solid darkorange;
+    /* border: 2px solid darkorange; */
     
     gap: 20px;
 }
@@ -503,7 +501,7 @@ border: 2px solid blue;
     margin-left: 10px;
 }
 main{
-    border: 2px solid rgb(4, 255, 33);
+    /* border: 2px solid rgb(4, 255, 33); */
 }
 
 /* Small secreen device */
@@ -609,8 +607,7 @@ background-position-x: center;
 
 .flower-image{
 position: relative;
-border: 2px solid
-blue;
+/* border: 2px solid blue; */
 }
 
 .image-back{
