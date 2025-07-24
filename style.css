@@ -47,6 +47,7 @@ h1 h2 h3 h4{
 /* navbar style */
 header{
     width: 90%;
+    max-width: 1140px;
     margin: 0 auto;
     /* border: 2px solid blueviolet; */
 }
@@ -177,9 +178,10 @@ opacity: .4;
     text-align: center;
     margin-bottom: 30px;
     height: auto;
-    width: 220px;;
+    width: 100%;
+    max-width: 220px;
     border-radius: 10px;
-    
+    overflow: hidden;
 }
 .card-contant img{
     width: 220px;
