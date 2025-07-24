@@ -92,6 +92,7 @@ main{
     justify-content: space-between;
     align-items: end;
      
+    overflow-y: hidden;
 }
 .heading{
     border: 2px solid gold;
@@ -206,6 +207,7 @@ opacity: .7;
     border: 3px solid salmon;
     margin-bottom: 100px;
     width: 100%;
+    overflow-y: hidden;
 }
 
 /* .flower-3{
@@ -363,6 +365,7 @@ color: white;
     /* border: 4px solid violet; */
     /* border-radius: 20px; */
     text-align: center;
+    overflow-x: hidden;
 }
 
 .join-the-colorful-bunch h1{
@@ -433,13 +436,15 @@ width: 100%;
      .flower-plants-lover-container{
        display: flex;
        flex-wrap: wrap;
-       margin-top: 28px;                
+       margin-top: 28px;  
+       overflow-x: hidden;        
+       overflow-y: hidden;      
      }
      .image-Front{
         display: none;
      }
 .image-back{
-
+overflow: hidden;
 /* width: 100%; */
 }
      .flower-love-heading{
