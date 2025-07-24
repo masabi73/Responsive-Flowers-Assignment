@@ -509,8 +509,12 @@ main{
 /* Small secreen device */
 @media screen and (max-width: 576px) {
     /* nav bar  */
+   
+
     header{
-        
+        width: 100%;
+        max-width: 576px;
+        border: 2px solid mediumorchid;
     }
     .hide{
         display: none;
@@ -522,6 +526,7 @@ main{
        display: flex;
        flex-wrap: wrap-reverse;
        margin-top: 28px;
+       
                 
      }
      .heading{
@@ -657,7 +662,26 @@ background-color: #E95A08;
 
     .join-the-colorful-bunch{
         width: 90%;
+        max-width: 576px;
         margin: 0 auto;
+    }
+
+    .join button{
+    font-size: .85rem;
+    padding: -2px 2px 5px 2px;
+    /* margin-left: -5px; */
+    background-color: #E95A08;
+    border: none;
+    outline: none;
+    }
+   .join input{
+        width: 70%;
+        max-width: 40px;
+        font-size: .85rem;
+        padding: 5px 0 5px 5px;
+    }
+    .join-the-colorful-bunch h1{
+        font-size: 1.5rem;
     }
 
      /* \sdfadkf */
@@ -677,6 +701,7 @@ background-color: #E95A08;
         grid-template-columns: repeat(1, 1fr);
        
         width: 90%;
+        max-width: 576px;
         margin: 0 auto;
      }
      
