@@ -87,7 +87,7 @@ main{
 }
 .banner{
     margin-top: 100px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 
     justify-content: space-between;
     align-items: end;
@@ -95,7 +95,7 @@ main{
     overflow-y: hidden;
 }
 .heading{
-    border: 2px solid gold;
+    /* border: 2px solid gold; */
     height: 296px;
     /* width: 50%; */
     display: flex;
@@ -120,7 +120,7 @@ main{
 }
 .banner-image{
     /* width: 50%; */
-border: 3px solid violet;
+/* border: 3px solid violet; */
 background-repeat: no-repeat;
 }
 
@@ -129,7 +129,7 @@ background-repeat: no-repeat;
 .our-plants-container{
 margin-top: 100px;
 margin-bottom: 100px;
-border: 2px solid salmon;
+/* border: 2px solid salmon; */
 
 }
 
@@ -137,7 +137,7 @@ border: 2px solid salmon;
 .plants-heading{
 text-align: center;
 margin-bottom: 80px;
-border: 2px solid rgb(125, 114, 250);
+/* border: 2px solid rgb(125, 114, 250); */
 }
 
 .plants-heading h1{
@@ -163,7 +163,7 @@ opacity: .4;
 }
 
 .card-contant{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     text-align: center;
     margin-bottom: 30px;
     height: auto;
@@ -204,7 +204,7 @@ opacity: .7;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    border: 3px solid salmon;
+    /* border: 3px solid salmon; */
     margin-bottom: 100px;
     max-width: 100%;
     /* overflow-x: hidden; */
@@ -239,7 +239,7 @@ margin: 0;
 
 
 .flower-love-heading{
-    border: 4px solid lawngreen;
+    /* border: 4px solid lawngreen; */
     /* height: 400px; */
 
 }
@@ -256,7 +256,7 @@ margin: 0;
 
 /* last deals style */
 .last-deals{
-    border: 2px solid chocolate;
+    /* border: 2px solid chocolate; */
     text-align: center;
     height: 170px;
     margin-bottom: 100px;
@@ -287,7 +287,7 @@ margin: 0;
     align-items: center;
     width: 100%;
     gap: 40px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin-bottom: 100px;
 }
 .two-into-first, .two-into-second{
@@ -296,7 +296,7 @@ margin: 0;
     align-items: center;
     color: white;
      margin-top: 10px;
-    border: 4px solid firebrick;
+    /* border: 4px solid firebrick; */
     background-image: url(./assets/deal-ana.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -339,7 +339,7 @@ margin: 0;
     height: 400px;
     width: 60%;
     border-radius: 20px;
-    border: 2px solid cadetblue;
+    /* border: 2px solid cadetblue; */
       text-align: center;
 }
 .one-image h6{
